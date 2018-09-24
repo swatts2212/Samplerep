@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class Register {
   @Test
   public void f() {
-	  System.setProperty("webdriver.gecko.driver","C:\\Users\\madan\\Selenium\\geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver","d:\\Users\\madan\\Selenium\\geckodriver.exe");
 	  WebDriver dr=new FirefoxDriver();
 	  dr.navigate().to("http://automationpractice.com/index.php");
 	  dr.findElement(By.linkText("Sign in")).click();
